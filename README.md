@@ -30,14 +30,25 @@ Picks the chain by firmware. You can override with `?chain=` if needed.
 
 ### Block Sony updates (DNS)
 
+Public DNS that block Sony / PlayStation update hosts (probed Oct 2026). Pick one primary; leave secondary empty, or set secondary to another address from the same list.
+
+| Role | DNS | Notes |
+| --- | --- | --- |
+| Primary | `62.210.38.117` | **Nomadic** — redirects PS4 update hosts to itself; normal browsing still works |
+| Primary | `45.56.67.85` | Community / ArabPixel-related — sinkholes update hosts to `0.0.0.0`; normal browsing still works |
+| Limited | `165.227.83.145` | Legacy **Al-Azif** — still answers for PlayStation domains, but refuses most general queries (not for normal internet) |
+| Limited | `192.241.221.79` | Legacy **Al-Azif** — same as above |
+
+Setup:
+
 1. Settings > Network > Set Up Internet Connection.
 2. Use **Custom** setup.
 3. DNS Settings: **Manual**.
-4. Primary DNS: `62.210.38.117`
-5. Leave Secondary DNS empty.
-6. Save and test connection (fail to Sony is OK).
+4. Primary DNS: one of the **Primary** addresses above (Nomadic or `45.56.67.85`).
+5. Secondary DNS: leave empty, or use the other Primary address.
+6. Save and test connection (fail to Sony is OK — that means updates are blocked).
 
-DNS by **Nomadic** - blocks official system updates.
+Credits: **Nomadic** (`62.210.38.117`), community / ArabPixel-related (`45.56.67.85`), and **Al-Azif** for the classic DNS approach. Public DNS can go offline; if yours stops working, try the other Primary or self-host a blocker (Pi-hole / NanoDNS / Chūkei).
 
 ### Browser
 
