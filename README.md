@@ -4,7 +4,7 @@ PS4 jailbreak / HEN host.
 
 **Created by X-F1REBALL-X**
 
-**Page:** https://x-f1reball-x.gitlab.io/ps4hostjailbreak
+**Page:** https://x-f1reball-x.github.io/ps4hostjailbreak
 
 
 ## Firmwares
@@ -38,7 +38,7 @@ DNS by **Nomadic** - blocks official system updates.
 
 1. Open the PS4 Internet Browser.
 2. Clear Cookies and Clear Cache (Options menu).
-3. Open: https://x-f1reball-x.gitlab.io/ps4hostjailbreak
+3. Open: https://x-f1reball-x.github.io/ps4hostjailbreak
 4. Add the page to **Favorites**.
 
 ### Jailbreak
