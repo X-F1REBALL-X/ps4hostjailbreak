@@ -1,11 +1,16 @@
 # PS4 Host Jailbreak
 
+## Preview
+
+![PS4 Host Jailbreak preview](docs/screenshots/home.png)
+
+Live page: https://x-f1reball-x.github.io/ps4hostjailbreak/
+
 PS4 jailbreak / HEN host.
 
 **Created by X-F1REBALL-X**
 
 **Page:** https://x-f1reball-x.github.io/ps4hostjailbreak
-
 
 ## Firmwares
 
