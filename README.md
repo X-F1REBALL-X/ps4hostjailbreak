@@ -8,7 +8,7 @@ Live page: https://x-f1reball-x.github.io/ps4hostjailbreak/
 
 PS4 jailbreak / HEN host.
 
-**Created by X-F1REBALL-X**
+**Developed by [X-F1REBALL-X](https://github.com/X-F1REBALL-X)**
 
 **Page:** https://x-f1reball-x.github.io/ps4hostjailbreak
 
